@@ -28,4 +28,3 @@ if __name__ == '__main__':
     Output = myModule(Input)
     print(Output.shape)
 
-
