@@ -112,3 +112,4 @@ for i in range(epoch):
         print("模型已保存")
 
 writer.close()
+
