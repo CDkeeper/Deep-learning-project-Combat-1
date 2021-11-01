@@ -10,7 +10,7 @@ train_data = torchvision.datasets.CIFAR10("./dataset", train=True, transform=tor
                                           download=True)
 test_data = torchvision.datasets.CIFAR10("./dataset", train=False, transform=torchvision.transforms.ToTensor(),
                                          download=True)
-
+# 采用cpu版本的训练文件，可以先尝试训练出结果再改用gpu版本
 train_data_size = len(train_data)
 test_data_size = len(test_data)
 
