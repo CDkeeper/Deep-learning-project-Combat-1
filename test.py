@@ -22,3 +22,4 @@ with torch.no_grad():
 print(output)
 
 print(output.argmax(1))
+
