@@ -13,6 +13,7 @@ imgs:包含测试图片，用于测试网络效果。
 logs_train：是一个tensorboard保存的events文件，方便在tensorboard上进行每次结果查看，这块不懂可以看度娘。。可以建个文件夹，不使用它  
 train_gpu_1.py和train_gpu_2.py是一样的，只是写法不同。。  
 
-使用方法：先运行train.py，或者train_gpu_1，train_gpu_2，接着根据使用test.py查看结果。
+使用方法1：先运行train.py，或者train_gpu_1，train_gpu_2，接着根据使用test.py查看结果。  
+使用方法2：如果只是想先看看效果，可以先将myModule_29.pth文件放入model_weight文件夹下，直接调用test.py查看结果，然后再尝试使用train等方法进行训练  
 
 
