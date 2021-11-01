@@ -1,7 +1,7 @@
 import torch
 import torchvision
 from PIL import Image
-
+# 测试文件，用于测试训练后的网络效果
 image_path = "./imgs/airplane.png"
 image = Image.open(image_path)
 print(image)
